@@ -39,9 +39,12 @@
 
   const map = L.map('map', { zoomControl: true, attributionControl: true, minZoom: 10, maxZoom: 18 });
   map.fitBounds(GUERNSEY);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?key=cb1_4rrh_1_787f5809ade6f105fa27d8a3', {
-    subdomains: 'abcd', maxZoom: 19,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+  // Basemap: OpenStreetMap standard tiles, darkened in CSS (.leaflet-tile-pane).
+  // CARTO Dark Matter, for when the CARTO key is active (remove the CSS filter if switching back):
+  // 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?key=cb1_4rrh_1_787f5809ade6f105fa27d8a3'
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   }).addTo(map);
 
   const cluster = L.markerClusterGroup({
