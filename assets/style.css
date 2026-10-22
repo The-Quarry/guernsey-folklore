@@ -29,7 +29,7 @@ a{color:inherit}
 
 /* Leaflet theming */
 .leaflet-container{background:var(--sea);font-family:var(--body)}
-.leaflet-tile-pane{filter:invert(1) hue-rotate(180deg) saturate(.35) brightness(.8) contrast(.95)}
+.leaflet-tile-pane{filter:saturate(.6) brightness(.95)}
 .leaflet-bar a{background:var(--panel);color:var(--ink);border-bottom-color:var(--rule)}
 .leaflet-bar a:hover{background:var(--panel-2);color:var(--ink)}
 .leaflet-bar{border:1px solid var(--rule)!important}
