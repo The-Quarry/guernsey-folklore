@@ -1,0 +1,102 @@
+[
+ {
+  "id": "walk-catioroc",
+  "name": "The Catioroc and L'Erée",
+  "summary": "From the witches' dolmen on the Catioroc, past the fairies' house at L'Erée and the view across to Lihou, down to Fort Grey.",
+  "stops": [
+   "le-trepied",
+   "rue-de-la-bete",
+   "fontaine-au-baiser",
+   "les-adams",
+   "lerree-fields",
+   "creux-es-faies",
+   "lihou",
+   "le-catillon",
+   "fort-grey"
+  ],
+  "notes": [
+   "Lihou is reached by a tidal causeway. Only cross within the published safe crossing times.",
+   "The kettle and changeling stories belong to the L'Erée area rather than a single spot."
+  ]
+ },
+ {
+  "id": "walk-paysans",
+  "name": "Les Paysans and St Brioc",
+  "summary": "The fairies' bat, the valley where the pouques borrowed a cart, and the cottage where they baked by night.",
+  "stops": [
+   "le-laurier",
+   "longue-rocque",
+   "douit-israel",
+   "st-brioc"
+  ],
+  "notes": []
+ },
+ {
+  "id": "walk-pleinmont",
+  "name": "Pleinmont",
+  "summary": "The fairy ring, Hugo's haunted house and the Devil's cave on the south-west cliffs.",
+  "stops": [
+   "table-des-pions",
+   "haunted-house",
+   "creux-mahie"
+  ],
+  "notes": [
+   "Le Creux Mahié is reached by a narrow path down a steep cliff. It is not a walk for poor weather or poor footing."
+  ]
+ },
+ {
+  "id": "walk-lancresse",
+  "name": "L'Ancresse and the Clos du Valle",
+  "summary": "The fairies' gallows, the Devil's last stand, the ringing stone and the witch with silver slippers.",
+  "stops": [
+   "rocque-balan",
+   "gibet-des-faies",
+   "pied-du-boeuf",
+   "dehus",
+   "hougue-juas",
+   "rocque-qui-sonne",
+   "ville-es-pies",
+   "grand-pont"
+  ],
+  "notes": [
+   "The site of La Rocque qui Sonne is within school grounds and not open to the public."
+  ]
+ },
+ {
+  "id": "walk-jerbourg",
+  "name": "St Martin's and Jerbourg",
+  "summary": "The goat's corner, the grandmother of the cemetery, the manor's ghosts and the Devil's claw, ending in sight of Andriou.",
+  "stops": [
+   "coin-de-la-biche",
+   "granmere-chimquiere",
+   "sausmarez-manor",
+   "devils-claw",
+   "petit-bonhomme-andriou"
+  ],
+  "notes": [
+   "Le Petit Bonhomme Andriou is a rock stack off Jerbourg Point and is seen from the cliffs."
+  ]
+ },
+ {
+  "id": "walk-town",
+  "name": "St Peter Port",
+  "summary": "Where the fairy invasion ended, the chained beast of Tower Hill, and the Bailiff's forfeited manor.",
+  "stops": [
+   "rouge-rue",
+   "tour-beauregard",
+   "ville-au-roi"
+  ],
+  "notes": []
+ },
+ {
+  "id": "walk-castel",
+  "name": "St George and La Haye du Puits",
+  "summary": "The fiery horse at the holy well, the headless funeral on the hill and the knight's cursed house.",
+  "stops": [
+   "st-george",
+   "mont-au-val",
+   "haye-du-puits"
+  ],
+  "notes": []
+ }
+]

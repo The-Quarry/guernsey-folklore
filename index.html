@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Guernsey Folklore Map | The Quarry</title>
+  <meta name="description" content="Fairies, witches, the Devil, black dogs and ghosts: the places in Guernsey and Sark where the island's old stories are attached to the ground, with sources.">
+  <meta property="og:title" content="Guernsey Folklore Map">
+  <meta property="og:description" content="The places in Guernsey and Sark where the island's old stories are attached to the ground, with sources.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://folklore.thequarry.media/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Alegreya+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Alegreya+Sans+SC:wght@500&display=swap">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="app">
+    <div id="map" class="map" aria-label="Map of Guernsey folklore sites"></div>
+
+    <aside class="panel" id="panel">
+      <header class="head">
+        <h1>Guernsey Folklore Map <em>of fairies, witches and black dogs</em></h1>
+        <p class="intro"><span id="count">The</span> places where the island's old stories are still attached to the ground: the dolmens where pouques danced, the headland where witches kept their Friday Sabbat, and the lanes walked by headless dogs.</p>
+        <nav class="tabs" role="tablist" aria-label="View">
+          <button type="button" role="tab" id="tab-sites" aria-selected="true">Sites</button>
+          <button type="button" role="tab" id="tab-walks" aria-selected="false">Walks</button>
+        </nav>
+        <div class="filters" id="filters" role="group" aria-label="Filter by kind of tale"></div>
+      </header>
+
+      <div class="body" id="body">
+        <div class="card" id="card" hidden></div>
+        <ul class="list" id="list"></ul>
+        <ul class="list walks" id="walks" hidden></ul>
+      </div>
+
+      <footer class="note">
+        <p>Stories retold from Sir Edgar MacCulloch's <i>Guernsey Folk Lore</i> (1903), John Linwood Pitts's witch-trial transcripts (1886), Guernsey Museums' folklore stories adapted from Marie de Garis's <i>Folklore of Guernsey</i>, and the sources listed with each entry. Photographs dated 1903 are plates from MacCulloch.</p>
+        <p>Many sites are on private land. Please keep to public roads and paths.</p>
+        <p class="byline">Published by <a href="https://thequarry.media">The Quarry</a></p>
+      </footer>
+    </aside>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

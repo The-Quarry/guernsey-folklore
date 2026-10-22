@@ -1,0 +1,1543 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.65504,
+     49.45612
+    ]
+   },
+   "properties": {
+    "id": "creux-es-faies",
+    "name": "Le Creux ès Faïes",
+    "gloss": "The fairies' hollow and the conger eel",
+    "category": "fairies",
+    "parish": "St Pierre du Bois",
+    "location_precision": "site",
+    "story": [
+     "A Neolithic passage tomb on the L'Erée headland, long believed to be the fairies' own house and the doorway to their underground country. On the night of the full moon the fairies came out to dance on Le Mont Saint until daybreak, and as late as 1896 people warned that it was unlucky to build there and disturb them.",
+     "A man resting on the grass beside it heard a voice inside call for the oven shovel because the oven was hot, and another answer that they would soon have cake. In a second version, men ploughing the field below heard the same call. One of them shouted that he would have some cake too, and a hot cake promptly appeared in the furrow. When he bent to take a piece home to his wife, an unseen hand knocked him flat on the ground.",
+     "Neighbours also said that a bowl of milk porridge left at the Creux overnight, with knitting, wool and needles beside it, would be found empty in the morning and the work finished better than any human hand could manage. Close by, a plot of ground was known as Le Camp du Varou.",
+     "Guernsey Museums tells of a desperate west coast man who dug all night for treasure at the foot of a dolmen near Rocquaine Bay, since the spirits of the ancient dead were thought to guard such places. In the early hours he uncovered old pots full of coins, which at once turned into limpet shells. A huge black conger eel with glaring red eyes coiled round the pots and reared out of the hole snapping its jaws, and he ran for his life. The museum does not name the dolmen; the Creux ès Faïes is the likeliest candidate. MacCulloch explained the belief that found gold turns to shells by the limpet shells so often dug from the cromlechs."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     },
+     {
+      "title": "Guernsey Museums: folklore stories",
+      "url": "https://museums.gov.gg/folklorelearning"
+     },
+     {
+      "title": "Guernsey Museums: Spirits of the Long-Dead",
+      "url": "https://museums.gov.gg/folklorelearning"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.64878,
+     49.45509
+    ]
+   },
+   "properties": {
+    "id": "lerree-fields",
+    "name": "The fields at L'Erée",
+    "gloss": "The broken kettle and the changeling",
+    "category": "fairies",
+    "parish": "St Pierre du Bois",
+    "location_precision": "area",
+    "story": [
+     "Two men ploughing near L'Erée found their plough would not move however hard the oxen pulled. In a furrow lay an iron baking kettle with a piece broken out of its side and two nails inside it. A voice asked them to have it mended and put it back where they found it. They took it to the smith, returned it, and the plough ran freely, until it stuck again beside a neat bundle holding a warm cake and a bottle of cider, left as thanks.",
+     "A young mother at L'Erée set limpets to cook on the hearth and heard her fortnight-old baby sit up in the cradle and exclaim that in all its years, back to the time of King John, it had never seen so many pots boiling. Knowing it for a fairy changeling, she snatched it up to throw on the fire. The fairy mother leapt in over the half-door, handed back the stolen child unharmed and fled with her own."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     },
+     {
+      "title": "Guernsey Museums: The Fairy Changeling",
+      "url": "https://museums.gov.gg/folklorelearning"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.6156,
+     49.4662
+    ]
+   },
+   "properties": {
+    "id": "vazon",
+    "name": "Vazon Bay and Le Grand Marais",
+    "gloss": "Where the fairy invasion began",
+    "category": "fairies",
+    "parish": "Castel",
+    "location_precision": "area",
+    "story": [
+     "A girl of great beauty living near Vazon went out early to her cows and found a very small, handsome young man asleep under a hedge, dressed in grass green with a bow and arrows beside him. He was a fairy, he asked her to marry him, and she sailed away with him to fairyland. Later tellings name her Michelle de Garis. Before she left, he gave her a bulb to plant in the sand above the bay so her mother would have something to remember her by, and it flowered as the Guernsey lily.",
+     "Some time afterwards a man tending cows on the west coast saw a host of tiny warriors, thousands of them, pouring out of the Creux des Fées and crossing the reeds of Le Grand Marais. They wanted Guernsey wives too, and sent him to tell the island's men. The islanders refused and fought, and were driven east with great slaughter across the island to a last stand on the western slopes of St Peter Port. Only two men of St Andrew's survived, by hiding in an oven. The fairies stayed until fairy law called them home, which is why, people said, Guernsey folk are short, and why Guernsey witches have flown on inherited wings ever since.",
+     "MacCulloch read the story as a folk memory of a real invasion: the landing at Vazon by Yvon de Galles and his Aragonese mercenaries in 1372, which is told in an old Guernsey ballad."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     },
+     {
+      "title": "Guernsey Museums: The Fairy Invasion; The Guernsey Lily",
+      "url": "https://museums.gov.gg/folklorelearning"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.54175,
+     49.46436
+    ]
+   },
+   "properties": {
+    "id": "rouge-rue",
+    "name": "La Rouge Rue",
+    "gloss": "The red road",
+    "category": "fairies",
+    "parish": "St Peter Port",
+    "location_precision": "site",
+    "story": [
+     "Where the fairy invasion ended, on the western slopes of St Peter Port. The islanders' last stand against the fairies was crushed here, and so much blood ran down to the shore that it stained the sea far out. The road kept the name La Rouge Rue, the Red Road, in memory of the massacre. MacCulloch places the final stand near Le Mont Arrivel."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     },
+     {
+      "title": "Guernsey Museums: The Fairy Invasion",
+      "url": "https://museums.gov.gg/folklorelearning"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.60938,
+     49.47412
+    ]
+   },
+   "properties": {
+    "id": "creux-des-fees-houmet",
+    "name": "Le Creux des Fées, Le Houmet",
+    "gloss": "The fairy cavern",
+    "category": "fairies",
+    "parish": "Castel",
+    "location_precision": "area",
+    "story": [
+     "A small sea cave on the Houmet peninsula between Vazon and Cobo, reachable only at low tide, its granite glittering with mica like streaks of gold. Through a hole no bigger than an oven mouth you were said to reach a great hall with a stone table laid for a feast with stone dishes and cups, and a passage running on underground all the way to St Saviour's Church.",
+     "A nurse living nearby was fetched one night by a stranger to care for a sick child, and led into the cave, which turned into a splendid lit house. When some of the child's spittle touched her eyes she saw it as it really was, a dank cavern. Back in town she spotted one of the fairies stealing from a shop in the Haut Pavé and called out to him. He asked how she could see him, and when she told him he spat in her eyes and she was blind for the rest of her life.",
+     "Old people also said Le Char des Varous could be heard rolling on silver-tyred wheels over the rocks between here and Albecq before the death of some great person, followed by violent storms."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     },
+     {
+      "title": "Victor Coysh: Fairy wells (Priaulx Library)",
+      "url": "https://www.priaulxlibrary.co.uk/articles/article/fairy-wells-victor-coysh"
+     }
+    ],
+    "images": [
+     {
+      "src": "images/1903/creux-des-fees-houmet-1.jpg",
+      "caption": "Creux des Fâïes",
+      "credit": "Guernsey Folk Lore, MacCulloch, ed. Carey (1903)",
+      "year": 1903
+     },
+     {
+      "src": "images/1903/creux-des-fees-houmet-2.jpg",
+      "caption": "Another view of Creux des Fâïes, near Cobo",
+      "credit": "Guernsey Folk Lore, MacCulloch, ed. Carey (1903)",
+      "year": 1903
+     }
+    ],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.6727,
+     49.43594
+    ]
+   },
+   "properties": {
+    "id": "table-des-pions",
+    "name": "La Table des Pions",
+    "gloss": "The footmen's table, or the Fairy Ring",
+    "category": "fairies",
+    "parish": "Torteval",
+    "location_precision": "site",
+    "story": [
+     "A circle cut into the turf and ringed with stones on the Pleinmont cliffs. Its real origin is civic. During the Chevauchée de St Michel, the procession that inspected the island's roads, the pions (the footmen who led the officials' horses) ate their meal sitting on the grass in a circle hollowed out like a round table. The last Chevauchée rode in 1837.",
+     "Folklore turned it into a place where fairies and elves danced at night. Walk round it three times and make a wish, and the fairies are said to grant it."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     },
+     {
+      "title": "VisitGuernsey: Folklore of the Bailiwick",
+      "url": "https://www.visitguernsey.com/articles/2018/folklore-of-the-bailiwick/"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.51444,
+     49.50417
+    ]
+   },
+   "properties": {
+    "id": "gibet-des-faies",
+    "name": "Le Gibet des Faïes",
+    "gloss": "The fairies' gallows",
+    "category": "fairies",
+    "parish": "Vale",
+    "location_precision": "area",
+    "story": [
+     "For a long time the fairies alone held L'Ancresse. Then men went abroad, learned magic and brought witchcraft home, and the fairies watched their rings trampled by witches and scorched by demon hooves every Friday night. In despair they climbed the great pile of rocks at the eastern end of L'Ancresse Bay, where a spring rose that was cool in summer and never froze, and drank its water of forgetting.",
+     "It had no power over them. Still remembering everything, they made tiny nooses from blades of grass and hanged themselves beneath an ancient monument. MacCulloch's source puts it at a trilithon of three upright stones with a fourth across them on the common near La Hougue Patris; the Guernsey Museums version places the spring at the foot of Hougue Patris above Fontenelle Bay and the gallows under a dolmen on its summit. The stones were broken up for building long ago, and that kind of fairy was never seen on the island again."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     },
+     {
+      "title": "Guernsey Museums: The Fairies' Gallows",
+      "url": "https://museums.gov.gg/folklorelearning"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.50643,
+     49.49705
+    ]
+   },
+   "properties": {
+    "id": "dehus",
+    "name": "Le Déhus",
+    "gloss": "Passage grave",
+    "category": "fairies",
+    "parish": "Vale",
+    "location_precision": "site",
+    "story": [
+     "Le Déhus was long believed to be haunted by fairies, imps and ghosts. The antiquary Métivier tied its name to the old Gaulish god of the dead, and the nearby fields called Les Déhusets were favourite fairy haunts. When it was opened, two skeletons were found kneeling side by side, one facing north and one south.",
+     "A face and arms carved on one of the capstones, known as Le Gardien du Tombeau, can still be seen inside."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     },
+     {
+      "title": "VisitGuernsey: Victor Hugo folklore trail",
+      "url": "https://victorhugo.visitguernsey.com/folklore"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.6354,
+     49.4446
+    ]
+   },
+   "properties": {
+    "id": "longue-rocque",
+    "name": "La Longue Rocque",
+    "gloss": "La Palette ès Faïes, the fairies' bat",
+    "category": "fairies",
+    "parish": "St Pierre du Bois",
+    "location_precision": "site",
+    "story": [
+     "Guernsey's tallest standing stone, more than ten feet high in a field at Les Paysans. A man walking home very late, or very early, saw a tiny woman come up from Rocquaine Bay, knitting as she walked and carrying something in her apron as tenderly as a baby. She took out a stone at least fifteen feet long and pushed it upright into the field as easily as a pin into a pincushion.",
+     "The other story is that two pouques of the St Brioc valley, Le Grand Colin and Le Petit Colin, played bat and ball on the flat fields of Les Paysans, using the stone, over four metres long, as their bat. Le Grand Colin hit the ball out of bounds, Le Petit Colin objected, and Le Grand Colin lost his temper, rammed the bat upright into the ground and refused to play on. The bat still stands. The ball is a huge round boulder, which MacCulloch places on the shore near Les Pézeries and Guernsey Museums on the hillside west of the Imperial Hotel."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     },
+     {
+      "title": "Guernsey Museums: The Fairies' Bat",
+      "url": "https://museums.gov.gg/folklorelearning"
+     },
+     {
+      "title": "Megalithic Portal: Guernsey sites",
+      "url": "https://www.megalithic.co.uk/mm/database/county63889042.htm"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.64827,
+     49.43245
+    ]
+   },
+   "properties": {
+    "id": "st-brioc",
+    "name": "St Brioc",
+    "gloss": "The fairy bakers",
+    "category": "fairies",
+    "parish": "St Pierre du Bois",
+    "location_precision": "area",
+    "story": [
+     "A fisherman and his wife lived in an old cottage at St Brioc. One night as she sat up spinning, a voice outside asked whether the oven was hot and whether a batch could be baked. A voice inside the house asked who was there, the answer came 'Le Petit Colin', and the door opened by itself. She heard the dough go into the oven and learned that the invisible lodger by her hearth was Le Grand Colin. When the bread was done a warm cake was left on the table in thanks, and so it went on for many nights.",
+     "Her husband insisted on finding out more. He dressed in her clothes and sat at the empty spinning wheel. The fairies came, noticed the distaff was bare and that the spinner had a beard, and left in anger, never to return."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     },
+     {
+      "title": "Guernsey Museums: The Pouque Bakers",
+      "url": "https://museums.gov.gg/folklorelearning"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.63197,
+     49.43303
+    ]
+   },
+   "properties": {
+    "id": "douit-israel",
+    "name": "Le Douit d'Israël",
+    "gloss": "The fairies borrow a cart",
+    "category": "fairies",
+    "parish": "St Pierre du Bois",
+    "location_precision": "area",
+    "story": [
+     "A little valley south of St Pierre du Bois church, with a stream of this strange name running through it, was a favourite haunt of the fairies. A De Garis family living near Le Colombier were on such good terms with them that the fairies would come at night and ask, in rhyme, to borrow the cart to fetch stones from St Malo, promising to make good anything that broke.",
+     "The cart was always back in the barn by morning, and any damaged ironwork was mended with pure silver. Neighbours sometimes heard wheels in the dead of night rolling over the Pleinmont cliffs, where no horse could keep its footing."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     },
+     {
+      "title": "Guernsey Museums: The De Garis Family and the Pouques",
+      "url": "https://museums.gov.gg/folklorelearning"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.61395,
+     49.45871
+    ]
+   },
+   "properties": {
+    "id": "rocque-coq-chante",
+    "name": "La Rocque où le Coq Chante",
+    "gloss": "The rock where the cock crows",
+    "category": "fairies",
+    "parish": "Castel",
+    "location_precision": "area",
+    "story": [
+     "A mass of rock at the end of a hill beside the road from the King's Mills to Le Mont Saint, said to be a favourite haunt of fairies and witches with a great treasure hidden inside. People used to walk round it stamping, and heard the ground ring hollow like a distant tolling bell.",
+     "Mess Dumaresq of the King's Mills had taken on a tiny, tireless farm boy called P'tit Colin. Riding home past the rock one night, he was called three times by an unseen voice: go home and tell P'tit Colin that Grand Colin is dead. When he passed on the message the boy said he must leave at once, laughed at the offer of wages, said he was now far richer than his master, and was never seen again.",
+     "Guernsey Museums tells the same tale of Pierre Dumont of Torteval, who heard a cry for help in the lanes around La Corbière one stormy midnight and found a small hand clutching his. In the candlelight at home it turned out to be an ugly, big-headed pouque, Lé P'tit Colin, who stayed for years, working the farm and minding the children. When a voice on the same path told Dumont that Lé Grand Colin was dead, the pouque jumped for joy at his inheritance and ran out of the door for good."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     },
+     {
+      "title": "Guernsey Museums: Pierre Dumont and Lé P'tit Colin",
+      "url": "https://museums.gov.gg/folklorelearning"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.64544,
+     49.4518
+    ]
+   },
+   "properties": {
+    "id": "fontaine-au-baiser",
+    "name": "La Fontaine au Baiser",
+    "gloss": "The fairy spring at Les Roussillons",
+    "category": "fairies",
+    "parish": "St Pierre du Bois",
+    "location_precision": "site",
+    "story": [
+     "A fairy spring up at Les Roussillons. In the Guernsey Museums retelling, an old widow of the west coast, whom her neighbours take for a witch, tells her own side of the story. She still drinks its water, which she was told as a girl was magic, and always leaves a little bunch of hedgerow flowers for the fairies, just in case. A big stone cross now stands there to scare them off.",
+     "Her 'evil eye' is poor eyesight, and her remedies are herbs. The preacher says she meets the Devil on dark nights, and neighbours claim to have seen her flying over the hedges to the Sabbat at the Catioroc. Her knees, she says, are so bad that some days she cannot get over her own doorstep, and her broom is just a broom."
+    ],
+    "sources": [
+     {
+      "title": "Guernsey Museums: The Witch's Story",
+      "url": "https://museums.gov.gg/folklorelearning"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.58082,
+     49.42514
+    ]
+   },
+   "properties": {
+    "id": "petit-bot",
+    "name": "Petit Bôt Bay",
+    "gloss": "Mermaids and Monsieur Picot's parlour",
+    "category": "fairies",
+    "parish": "Forest",
+    "location_precision": "site",
+    "story": [
+     "An old Forest man, Matthieu Tostevin, whose word was trusted, told the parish schoolmaster that he had watched six mermaids playing on the sands below the cliffs here. When he hurried down for a closer look they slipped into the sea. MacCulloch suspected seals. Guernsey fishermen also spoke of old women who sat singing on the rocks before a storm, luring ships close enough to wreck.",
+     "The double-entranced cave in the bay was known as Le Parloir de Monsieur Picot, after a 17th-century minister of the Forest and Torteval who liked to meditate in sea caves and was accused of preaching that miracles would come in 1655."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.64259,
+     49.46031
+    ]
+   },
+   "properties": {
+    "id": "le-trepied",
+    "name": "Le Trépied",
+    "gloss": "The witches' Sabbat",
+    "category": "witches",
+    "parish": "St Saviour's",
+    "location_precision": "site",
+    "story": [
+     "The passage grave on Le Catioroc headland was the island's most notorious witch site. Every Friday night, and above all on St Thomas's night and Christmas Eve, witches and wizards gathered here for le Sabbat des Sorciers. The Devil presided in person, seated on the dolmen in the shape of a huge black cat or goat, and Herodias, queen of the witches, led the dance.",
+     "Within sight of Lihou, the witches mocked the Virgin of the priory, chanting 'Qui hou, hou, Marie Lihou' as they danced. The place is named again and again in the confessions of the trials held under Bailiff Amice de Carteret in the early 1600s, and some 44 people were burned for witchcraft in Guernsey over about 80 years.",
+     "A man who heard that wizards met in a ruined house near the Catioroc hid in its oven one Friday night, hoping to learn their secrets. They searched the house before saying a word, found him, and made him swear himself to their master."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     },
+     {
+      "title": "Pitts, Witchcraft and Devil Lore in the Channel Islands (1886)",
+      "url": "https://www.gutenberg.org/ebooks/17203"
+     },
+     {
+      "title": "Kendrick (1928), via The Modern Antiquarian",
+      "url": "https://www.themodernantiquarian.com/site/7126/trepied_tomb.html"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.65488,
+     49.43921
+    ]
+   },
+   "properties": {
+    "id": "fort-grey",
+    "name": "Fort Grey and Rocquaine",
+    "gloss": "Château de Rocquaine",
+    "category": "witches",
+    "parish": "St Peter's",
+    "location_precision": "site",
+    "story": [
+     "The beach of Rocquaine shared the Catioroc's reputation as a meeting place of witches. Before the fort was built, its rock was a Sabbat site. In 1617 a local girl, Isabel Becquet, said she had met the Devil there, and Marie de Callais of St Martin's was convicted of belonging to the coven and burned at the stake on 17 October 1617.",
+     "A countrywoman walking out to her cows at dawn once found a fine lady from town caught fast in the top of a furze hedge. She had flown too low on her way home from the Catioroc."
+    ],
+    "sources": [
+     {
+      "title": "Fort Grey (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Fort_Grey"
+     },
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.66826,
+     49.46048
+    ]
+   },
+   "properties": {
+    "id": "lihou",
+    "name": "Lihou Island",
+    "gloss": "Notre Dame de la Roche",
+    "category": "witches",
+    "parish": "St Peter's",
+    "location_precision": "site",
+    "story": [
+     "The priory of Our Lady on Lihou was so revered that fishermen lowered their topmasts or saluted as they sailed past, long after it fell to ruin. Witches dancing on the Catioroc were said to taunt its Virgin across the water.",
+     "One prior was a secret student of magic. Returning from a visit to the priest of Ste Apolline, a fellow adept, he left his servant to carry his book of spells, with strict orders not to open it. The servant sat down on a heap of seaweed and began to read aloud, and the spell he had found was the one that makes the tide rise out of season. With the sea above his waist, the prior shouted to him to read faster to the end, then to read it backwards. The waves drowned his voice, and the demon the spell had raised carried him off."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     },
+     {
+      "title": "Lihou (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Lihou"
+     }
+    ],
+    "images": [
+     {
+      "src": "images/1903/lihou-stone.jpg",
+      "caption": "Stone at Les Adams supposed to represent the ancient Priory at Lihou",
+      "credit": "Guernsey Folk Lore, MacCulloch, ed. Carey (1903)",
+      "year": 1903
+     }
+    ],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.64705,
+     49.45365
+    ]
+   },
+   "properties": {
+    "id": "les-adams",
+    "name": "Les Adams",
+    "gloss": "Groans at the well, the Devil in the chapel",
+    "category": "witches",
+    "parish": "St Pierre du Bois",
+    "location_precision": "site",
+    "story": [
+     "A house at Les Adams was said to have been the home of the priest who served Lihou, and a stone set into its wall is carved with what may be the lost priory church. When a well was sunk on the property, a skeleton was found. People drawing water there at night heard groans, three times over, and a death in their family followed.",
+     "Soon after a Wesleyan chapel was built nearby in the 19th century, lights were seen inside it at night. Fishermen who crept up to the windows swore they saw the Devil, sparks flying from his mouth and nostrils, dancing and leaping in red knee boots. MacCulloch suspected the chapel was being used to store smuggled tobacco."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     }
+    ],
+    "images": [
+     {
+      "src": "images/1903/lihou-stone.jpg",
+      "caption": "Stone at Les Adams supposed to represent the ancient Priory at Lihou",
+      "credit": "Guernsey Folk Lore, MacCulloch, ed. Carey (1903)",
+      "year": 1903
+     }
+    ],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.51642,
+     49.49082
+    ]
+   },
+   "properties": {
+    "id": "ville-es-pies",
+    "name": "La Ville-ès-Pies",
+    "gloss": "The witch with silver slippers",
+    "category": "witches",
+    "parish": "Vale",
+    "location_precision": "site",
+    "story": [
+     "In the 18th century an old lady of good family at La Ville-ès-Pies, in the Clos du Valle, made no secret of being a witch. She flew to the Sabbat on Les Houmets d'Amont, the rocks near Herm, dressed in her best with silver slippers. A fisherman found one of the slippers on the rocks and honestly returned it.",
+     "She was said to dedicate each of her children to the Devil at birth. Her husband had the midwife sign the last baby with the cross before its mother could see it, and that son grew up free of her spell, while his brothers and sisters took the shape of hares and frolicked round the windmill on the hill on moonlit nights."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.51407,
+     49.50488
+    ]
+   },
+   "properties": {
+    "id": "pied-du-boeuf",
+    "name": "Le Pied du Boeuf",
+    "gloss": "The Devil's hoof",
+    "category": "beasts",
+    "parish": "Vale",
+    "location_precision": "site",
+    "story": [
+     "On La Hougue Patris, at the north-eastern end of L'Ancresse Bay above Fontenelle, a rock bears what looks like the print of an ox's hoof in wet clay. The Devil, driven out of the rest of the island by a saint whose name is forgotten, made his last stand here. Beaten after a long fight, he leapt for Alderney, leaving his hoof prints in the stone, and touched down on the Brayes rocks on the way, where matching marks are said to be.",
+     "MacCulloch noted the hougue was being sold for its fine paving granite in 1853, and joked that the forgotten saint might have been St Patrick."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     },
+     {
+      "title": "Guernsey Museums: The Devil's Hoofprint",
+      "url": "https://museums.gov.gg/folklorelearning"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.53432,
+     49.42695
+    ]
+   },
+   "properties": {
+    "id": "devils-claw",
+    "name": "The Devil's Claw, Jerbourg",
+    "gloss": "Duke Richard and the demon",
+    "category": "beasts",
+    "parish": "St Martin's",
+    "location_precision": "area",
+    "story": [
+     "The Chronicle of Normandy tells how the Devil, disguised as a richly dressed maiden in a boat at Granville, lured Duke Richard the Fearless aboard and carried him off to a rock in Guernsey. Islanders said he anchored at La Petite Porte, leapt up the cliff and landed on a stone near Doyle's Column.",
+     "The mark of his claw is a deep black splash across a large white lump of quartz on the right of the road to Doyle's Column, where it begins to rise, at the head of the second earthwork. The stone also marked the end of the Chevauchée's bounds at Jerbourg.",
+     "The marker shows Doyle's Column; the stone itself lies on the approach road below it."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     }
+    ],
+    "images": [
+     {
+      "src": "images/1903/devils-claw.jpg",
+      "caption": "\"The Devil's Claw\" at Jerbourg",
+      "credit": "Guernsey Folk Lore, MacCulloch, ed. Carey (1903)",
+      "year": 1903
+     }
+    ],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.63345,
+     49.42363
+    ]
+   },
+   "properties": {
+    "id": "creux-mahie",
+    "name": "Le Creux Mahié",
+    "gloss": "The Devil's cave",
+    "category": "beasts",
+    "parish": "Torteval",
+    "location_precision": "site",
+    "story": [
+     "The largest cave on Guernsey's south coast, reached by a narrow path down the Torteval cliffs. Métivier said it took its name from Mahu, a name of the prince of darkness. Islanders believed a passage ran from it underground to St Saviour's Church, and that a small hole led to a hall with a stone table laid for a feast.",
+     "It was also called Le Creux Robilliard, and in 1665 a letter mentions 'the prophet of the Creux Robilliard', probably the minister Thomas Picot. A rock standing off the cave is called La Belle Lizabeau, said to be a Torteval girl turned to stone."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.51881,
+     49.4882
+    ]
+   },
+   "properties": {
+    "id": "hougue-juas",
+    "name": "La Hougue Juas",
+    "gloss": "The blasted thorn",
+    "category": "beasts",
+    "parish": "Vale",
+    "location_precision": "site",
+    "story": [
+     "Fallot, the learned Vale schoolmaster of the 18th century, studied so late into the night that neighbours decided he was in league with the Devil. In one version Satan came in person to tempt him, failed, and stormed out with the gate of the school yard, which was found next morning flung onto a hawthorn on the top of the Hougue Juas. The bush lived on, blasted as if by lightning.",
+     "In another version a pupil found the master's book of spells and read the Devil up by accident. Fallot rushed back and set the fiend a task to finish before sunset: pitch a floor of scattered peas over the half-door with a three-pronged fork. Not one pea would stay on the prongs, and at sunset the Devil tore the hatch off its hinges and hurled it onto a thorn bush towards Les Landes."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.54075,
+     49.49249
+    ]
+   },
+   "properties": {
+    "id": "grand-pont",
+    "name": "Le Pont St Michel and Le Grand Pont",
+    "gloss": "The Devil's bridge",
+    "category": "beasts",
+    "parish": "Vale",
+    "location_precision": "area",
+    "story": [
+     "Until the Braye du Valle was drained around 1806, the Clos du Valle was cut off by the sea at high tide. The causeway at St Sampson's, Le Grand Pont, was also called Le Pont du Diable: the Devil was said to have thrown it up so he could cross easily to the newly built Vale Castle. MacCulloch suspected the real builder was Robert the Devil, Duke of Normandy.",
+     "The stone crossing near the Vale Church, Le Pont St Michel, was the most feared. Travellers had drowned there, will-o'-the-wisps danced on the sands at night, and even at noon cries of distress were heard from it with no one in sight."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.566,
+     49.444
+    ]
+   },
+   "properties": {
+    "id": "bailiffs-cross",
+    "name": "Bailiff's Cross",
+    "gloss": "La Croix au Baillif",
+    "category": "beasts",
+    "parish": "St Andrew's",
+    "location_precision": "area",
+    "story": [
+     "Gaultier de la Salle, Bailiff of Guernsey, coveted his neighbour Massy's right to draw water from a well on his land. He hid two of his own silver cups in a corn rick and had Massy convicted of stealing them, a hanging offence. On the day of the execution his workmen took down the rick and found the cups, and a messenger burst into court. 'Fool,' cried the Bailiff, 'did I not tell you not to touch that rick?' His own words condemned him.",
+     "On the way to the gallows at Les Galères he stopped to take the sacrament at a cross here, which gave the place its name. The original cross was destroyed long ago, and the stone carved with a cross at the junction today marks the tradition. The records tell a harder story: a Walter de la Salle was hanged around 1320 for the murder of Ranulph Gautier."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     },
+     {
+      "title": "St Andrew's Douzaine: Bailiff's Cross",
+      "url": "https://standrews.org.gg/bailiffs-cross/"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.55344,
+     49.44615
+    ]
+   },
+   "properties": {
+    "id": "ville-au-roi",
+    "name": "Ville-au-Roi",
+    "gloss": "The headless dog",
+    "category": "beasts",
+    "parish": "St Peter Port",
+    "location_precision": "area",
+    "story": [
+     "The traditional seat of Gaultier de la Salle, forfeited to the Crown after his execution, which is how it came to be called the King's town. An old lane along its northern edge, closed in the 18th century, was called La Rue de l'Ombre de la Mort, the lane of the shadow of death.",
+     "Belated travellers passing the avenue of old elms to the manor told of a huge headless black dog rushing past them. Those who struck at it found their cudgels met nothing but air. It was held to be de la Salle's spirit, doomed to circle the field he sinned for until Judgement Day."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     },
+     {
+      "title": "VisitGuernsey: Folklore of the Bailiwick",
+      "url": "https://www.visitguernsey.com/articles/2018/folklore-of-the-bailiwick/"
+     }
+    ],
+    "images": [
+     {
+      "src": "images/1903/ville-au-roi.jpg",
+      "caption": "Old Manor, Ville au Roi",
+      "credit": "Guernsey Folk Lore, MacCulloch, ed. Carey (1903)",
+      "year": 1903
+     }
+    ],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.53763,
+     49.45328
+    ]
+   },
+   "properties": {
+    "id": "tour-beauregard",
+    "name": "La Tour Beauregard",
+    "gloss": "Tchi-co, la Bête de la Tour",
+    "category": "beasts",
+    "parish": "St Peter Port",
+    "location_precision": "site",
+    "story": [
+     "The old fortress of La Tour Beauregard guarded the southern end of the medieval town near the top of Cornet Street, where St Barnabas' stands. Tradition placed the burning of heretics and witches at the foot of the hill.",
+     "On long winter nights, especially around Christmas, people in Tower Hill, the Bordage, Fountain Street and Cornet Street were woken by unearthly howling and heavy chains dragged over the cobbles. Those brave enough to look out saw a huge shapeless beast, something like a bear or a great calf, with flaming saucer eyes. They called it Tchi-co, la Bête de la Tour."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.5926,
+     49.43172
+    ]
+   },
+   "properties": {
+    "id": "le-bourg",
+    "name": "Le Bourg and the Forest Road",
+    "gloss": "La Rocque des Faïes and the chained dog",
+    "category": "beasts",
+    "parish": "Forest",
+    "location_precision": "area",
+    "story": [
+     "Just beyond Le Bourg de la Forêt stood an upright stone, La Rocque des Faïes, where the fairies held their nightly revels. People avoided passing it after dark, and it was destroyed when the road was improved. The fairies were also said to have carried away the building stones of the Forest church overnight to the spot where it now stands.",
+     "A black dog clanking its chains haunted the Forest Road. A man walking home from St Martin's to his house near the Forest church was followed by it all the way, took to his bed and died of the shock soon after. MacCulloch wrote that between St Thomas's Day and New Year's Eve the powers of darkness were thought unusually active, and that men met black dogs no threat could scare and no blow could touch."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.58778,
+     49.42694
+    ]
+   },
+   "properties": {
+    "id": "le-variouf",
+    "name": "Le Variouf",
+    "gloss": "The werewolf",
+    "category": "beasts",
+    "parish": "Forest",
+    "location_precision": "area",
+    "story": [
+     "The varou was Guernsey's werewolf, a night goblin with a famous appetite, so that a great eater was said to eat like a varou. To 'go varouing' meant meeting in lonely places for no good. The lanes above Petit Bôt carry its name, and people sheltered indoors at night for fear of it.",
+     "The likelier explanation is smuggling. Quiet bays like Petit Bôt suited night landings, and a werewolf kept the curious away."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     },
+     {
+      "title": "VisitGuernsey: Folklore of the Bailiwick",
+      "url": "https://www.visitguernsey.com/articles/2018/folklore-of-the-bailiwick/"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.56727,
+     49.43155
+    ]
+   },
+   "properties": {
+    "id": "coin-de-la-biche",
+    "name": "Le Coin de la Biche",
+    "gloss": "The goat's corner, La Rue des Grons",
+    "category": "beasts",
+    "parish": "St Martin's",
+    "location_precision": "area",
+    "story": [
+     "A weedy triangle of ground in the lane from the Carrefour David to La Marette at the Villette, belonging to neither field beside it. It was one of the first sites chosen for St Martin's Church, until the building materials were moved overnight by unseen hands. No neighbour would take it into his field for fear of bad luck.",
+     "Mr Mauger and his men were bringing a cart of vraic up the steep water-lane from Saints' Bay when, at the corner, a great hairy nanny goat with large red eyes reared up and set her front hooves on the back of the cart. Three oxen and two horses could not shift it, and they had to unhitch the animals and leave the cart in the lane. Next morning one ox and one horse pulled it home easily. Guernsey Museums names the farmer as Henri Mauger, places it at the start of the 19th century, and identifies the lane as La Rue des Grons. Another night a Mauger carrying a straw torch was escorted down the narrow lane by a brown beast the size of a calf, with a clanking chain and huge red eyes. A girl of sixteen who saw it took to her bed and died."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     },
+     {
+      "title": "Guernsey Museums: La Coin de la Biche",
+      "url": "https://museums.gov.gg/folklorelearning"
+     }
+    ],
+    "images": [
+     {
+      "src": "images/1903/coin-de-la-biche.jpg",
+      "caption": "Le Coin de la Biche, St Martin's",
+      "credit": "Guernsey Folk Lore, MacCulloch, ed. Carey (1903)",
+      "year": 1903
+     }
+    ],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.6338,
+     49.44784
+    ]
+   },
+   "properties": {
+    "id": "le-laurier",
+    "name": "Le Laurier",
+    "gloss": "The black sow and the dole of loaves",
+    "category": "beasts",
+    "parish": "St Pierre du Bois",
+    "location_precision": "site",
+    "story": [
+     "Loaves were handed out to the parish poor at Le Laurier every Christmas Eve and Good Friday, a charge written into the title deeds. The plain explanation was a vow made when the house caught fire. The one people preferred was that the house was haunted from Christmas Eve to Easter by a black beast like a calf but as big as an ox, which walked through at midnight with the doors left open for it. The clergy quietened it, and advised the dole.",
+     "One year a grasping wife persuaded her husband to stop the bread. The spectre came back as a gigantic black sow with a litter of squealing piglets clamouring for food, and the dole was quickly restored. MacCulloch's editor heard the story again from an old woman of St Peter's in 1896."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.6425,
+     49.4552
+    ]
+   },
+   "properties": {
+    "id": "rue-de-la-bete",
+    "name": "La Rue de la Bête, L'Erée",
+    "gloss": "The beast in the cart",
+    "category": "beasts",
+    "parish": "St Pierre du Bois",
+    "location_precision": "site",
+    "story": [
+     "A lane near L'Erée, between Claire Mare and Les Rouvets, where in 1896 people still would not walk alone after dark. A M. Vaucourt driving down it at night felt the Bête climb up into his cart beside him. He died of fright the next day."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.52347,
+     49.47725
+    ]
+   },
+   "properties": {
+    "id": "grentmaisons",
+    "name": "Les Grentmaisons",
+    "gloss": "The guardian beast",
+    "category": "beasts",
+    "parish": "St Sampson's",
+    "location_precision": "site",
+    "story": [
+     "The old Le Marchant house on the road from St Sampson's to town, the road now called Grandes Maisons Road, was shut up every winter. Strange noises were heard and lights seen in its empty rooms, and late travellers met a horrible beast with glaring eyes and long shaggy hair trailing to the ground, pacing round the old walls as if guarding the house.",
+     "A Le Marchant of the Grentmaisons once kept firing at a white rabbit in his warren and never hitting it. Suspecting a witch, he loaded with silver, the only thing that can wound a witch in animal form."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.6742,
+     49.4352
+    ]
+   },
+   "properties": {
+    "id": "haunted-house",
+    "name": "Pleinmont",
+    "gloss": "The Haunted House and the cliff-top Sabbat",
+    "category": "ghosts",
+    "parish": "Torteval",
+    "location_precision": "area",
+    "story": [
+     "On the Torteval cliffs facing the Hanois are the remains of the building Victor Hugo made famous as the haunted house in Toilers of the Sea. Lights and noises at night convinced locals it was haunted. In fact the derelict building had become a smugglers' haunt.",
+     "Pleinmont was also a Sabbat ground. A woman who used a witch's charm found herself whisked to the summit among a crowd at a laden table. Before eating she said grace, and at the name of God everything vanished, leaving only fresh marks of cloven feet on the turf.",
+     "Mr Sarre, a west coast wizard, was begged by the Rector of Torteval to give up his books of dark magic. A black cat began to follow him everywhere. One night he buried the books deep in the sand at the low-water mark, and walked home relieved to find them waiting on his kitchen table, the cat's paw resting on top. He took to wandering the cliffs and vanished. Some said he threw himself from Pleinmont; others that the Devil came for him."
+    ],
+    "sources": [
+     {
+      "title": "VisitGuernsey: Victor Hugo folklore trail",
+      "url": "https://victorhugo.visitguernsey.com/folklore"
+     },
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     },
+     {
+      "title": "Guernsey Museums: West Coast Wizard",
+      "url": "https://museums.gov.gg/folklorelearning"
+     }
+    ],
+    "images": [
+     {
+      "src": "images/1903/haunted-house.jpg",
+      "caption": "Victor Hugo's \"Haunted House\" at Pleinmont",
+      "credit": "Guernsey Folk Lore, MacCulloch, ed. Carey (1903)",
+      "year": 1903
+     }
+    ],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.5925,
+     49.4627
+    ]
+   },
+   "properties": {
+    "id": "st-george",
+    "name": "St George's Well",
+    "gloss": "Le Cheval de St George",
+    "category": "ghosts",
+    "parish": "Castel",
+    "location_precision": "site",
+    "story": [
+     "The most revered holy well in Guernsey, beside the ruined chapel of St George. On stormy nights, especially in thunder, a horse with fire streaming from its eyes and nostrils was seen galloping three times, and only three times, round the chapel ruins. Some saw only a flaming head with no body.",
+     "Legend says St Patrick and St George met here and agreed each to give the island a gift. Patrick filled his wallet with every toad and snake and emptied it over Jersey, and George struck the stream into a healing spring. A girl who came here fasting and in silence for nine mornings would see her future husband's face in the water, or a grinning skull if she was to die unmarried. In 1798 a girl slipping out to meet her lover ran home in terror after seeing bare skeletons gathered round the well, gazing into it.",
+     "The chapel's graveyard was haunted by a battered girl, crying every night, whose body had been found by the Hanois. Years later a grave was dug beside hers, and when an old man picked up one of her bones it ran with blood. He confessed to her murder and was hanged at St Andrew's."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.5865,
+     49.4658
+    ]
+   },
+   "properties": {
+    "id": "mont-au-val",
+    "name": "Le Mont au Val",
+    "gloss": "The headless funeral",
+    "category": "ghosts",
+    "parish": "Castel",
+    "location_precision": "site",
+    "story": [
+     "A steep, tree-shaded stretch of the road between La Haye du Puits and St George. Night travellers here have met a full funeral procession walking in perfect silence: clergyman and clerk in front, then bearers, pall-bearers, mourners and friends. Not one of them has a head. Meeting it means a death soon in the neighbourhood or in your own family."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.5817,
+     49.4672
+    ]
+   },
+   "properties": {
+    "id": "haye-du-puits",
+    "name": "La Haye du Puits",
+    "gloss": "The cursed knight and the unquiet nun",
+    "category": "ghosts",
+    "parish": "Castel",
+    "location_precision": "site",
+    "story": [
+     "A Norman knight, Sir Richard of La Haye du Puits, fled to Guernsey in the reign of Henry II and built his house on the site of an old cromlech. Islanders told him he was cursed. He gave the house to the Church as a nunnery, so the nuns would pray for him, and sailed from Rocquaine. Moorish pirates took him to Barbary, he escaped, and he built two churches in Normandy to save his soul, but he died a broken man.",
+     "The nuns were so troubled by the spirits of the cromlech that they abandoned the house. One unquiet nun is said to haunt it still, and for generations it brought no luck to its owners."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.54719,
+     49.43542
+    ]
+   },
+   "properties": {
+    "id": "sausmarez-manor",
+    "name": "Sausmarez Manor",
+    "gloss": "The ghostly nanny and the black dog of the avenue",
+    "category": "ghosts",
+    "parish": "St Martin's",
+    "location_precision": "site",
+    "story": [
+     "MacCulloch recorded La Bête de la Devise de Saumarez, a black dog that haunted the avenue by the manor. Spectral dogs were thought to favour the old boundary stones of the fiefs.",
+     "Today it is often called the most haunted house in Guernsey. Its best-known ghost is a nanny said to have cared for the 28 children of a de Sausmarez ancestor. The present Seigneur's young sons, left alone one evening, told their parents a lady had read them a story and tucked them in, and she has since been heard singing over a baby monitor. The Seigneur runs regular ghost tours."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     },
+     {
+      "title": "VisitGuernsey: Folklore of the Bailiwick",
+      "url": "https://www.visitguernsey.com/articles/2018/folklore-of-the-bailiwick/"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.57731,
+     49.44198
+    ]
+   },
+   "properties": {
+    "id": "underground-hospital",
+    "name": "German Underground Hospital",
+    "gloss": "Occupation tunnels",
+    "category": "ghosts",
+    "parish": "St Andrew's",
+    "location_precision": "site",
+    "story": [
+     "The tunnels dug during the Occupation are rumoured to be haunted by soldiers and by voices with no source. Other German fortifications around the island have their own reports of figures still on patrol."
+    ],
+    "sources": [
+     {
+      "title": "VisitGuernsey: Folklore of the Bailiwick",
+      "url": "https://www.visitguernsey.com/articles/2018/folklore-of-the-bailiwick/"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.36257,
+     49.43771
+    ]
+   },
+   "properties": {
+    "id": "seigneurie-sark",
+    "name": "La Seigneurie, Sark",
+    "gloss": "La Grand' Garce",
+    "category": "ghosts",
+    "parish": "Sark",
+    "location_precision": "site",
+    "story": [
+     "A guest at the Seigneurie in the 18th century locked her door, slept, and woke at midnight to find an elderly lady drawing back the curtains at the foot of her bed. She never visited Sark again. Servants said the ghost appeared only when the bedroom door was locked, and took her for a de Carteret who had vanished from that very room.",
+     "Her appearance was a warning of death. The night before Peter Le Pelley, Seigneur of Sark, set sail for Guernsey in February 1839, La Grand' Garce was heard walking the passages in high heels, wringing her hands. The servants begged him not to go. His boat was swamped off the Pointe du Nez and all aboard drowned."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.55448,
+     49.43761
+    ]
+   },
+   "properties": {
+    "id": "granmere-chimquiere",
+    "name": "La Gran'mère du Chimquière",
+    "gloss": "The grandmother of the cemetery",
+    "category": "stones",
+    "parish": "St Martin's",
+    "location_precision": "site",
+    "story": [
+     "A statue menhir at the churchyard gate, carved in the Neolithic and reworked around the Roman period with a cape and hair. Old people told MacCulloch's editor it was lucky to leave her fruit or flowers, or to spill a drop of spirits in front of her, because she was une pierre sainte. A few of the very old called her St Martin.",
+     "A puritanical churchwarden, fearing she would be worshipped again, had her broken in two in the 19th century, and she had to be cemented back together. Her sister figure was found buried under the chancel floor of the Castel church in 1878, possibly hidden there to stop the same devotion."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     },
+     {
+      "title": "La Gran' Mère de Chimquiere (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/La_Gran%27_M%C3%A8re_de_Chimquiere"
+     },
+     {
+      "title": "Geograph: La Gran'mere du Chimquiere",
+      "url": "https://www.geograph.org.gg/photo/139"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.52748,
+     49.4997
+    ]
+   },
+   "properties": {
+    "id": "rocque-balan",
+    "name": "La Rocque Balan",
+    "gloss": "The Midsummer rock",
+    "category": "stones",
+    "parish": "Vale",
+    "location_precision": "site",
+    "story": [
+     "A mass of granite on L'Ancresse common, flat on top in 1825, where young people danced and lit fires on St John's Eve. An old song ran 'J'irons tous à la Saint Jean / Dansaïr sus la Rocque Balan'.",
+     "MacCulloch weighed the theories behind the name: Baal and the Beltane fires, a vanished rocking stone, the scales on which the prior weighed his tenants' goods, or most likely a Vale family called Balan. A learned schoolmaster said to dabble in magic lived nearby."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.51869,
+     49.49064
+    ]
+   },
+   "properties": {
+    "id": "rocque-qui-sonne",
+    "name": "La Rocque qui Sonne",
+    "gloss": "The ringing stone",
+    "category": "stones",
+    "parish": "Vale",
+    "location_precision": "site",
+    "story": [
+     "A great stone near the Rocque Balan, part of a cromlech, which rang clear when struck. When its owner, Mr Hocart of Belval, set quarrymen to break it up for doorposts and lintels, the grey-headed men of the parish warned him of misfortune, and every hammer blow was heard as clearly at the Vale Church, nearly a mile away, as if the men were in the churchyard.",
+     "The new house was finished. On the morning the family were to move in, fire broke out and two servants died in the flames. The two ships carrying the rest of the stone to England were lost at sea. Hocart moved to Alderney, where his new house burned too, and on the voyage home a falling spar from the rigging killed him.",
+     "The site now lies within school grounds and is not open to the public."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     },
+     {
+      "title": "Megalithic Portal: Guernsey sites",
+      "url": "https://www.megalithic.co.uk/mm/database/county63889042.htm"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.65,
+     49.4417
+    ]
+   },
+   "properties": {
+    "id": "le-catillon",
+    "name": "Le Câtillon",
+    "gloss": "The footprints in the stone",
+    "category": "stones",
+    "parish": "St Pierre du Bois",
+    "location_precision": "site",
+    "story": [
+     "A rocky hillock inland from the middle of Rocquaine Bay, also called La Hougue ès Brinches for the broom that grew there. At its northern foot a flat stone bears two footprints pointing in opposite directions. The Lady of Lihou and the Lady of St Brioc agreed to settle their boundary by each walking out before breakfast until they met, and the stone marks the spot. Another tale says a hermit of Pleinmont met a tiny shrouded figure from Lihou here by moonlight, and was never seen again.",
+     "After nearly seven hundred silver pennies of Edward II were dug up nearby in 1829, men tried to lift the stone for more treasure. They loosened it by noon, went off for their dinner, and came back to find it fixed as fast as ever."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     }
+    ],
+    "images": [],
+    "access": ""
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.53807,
+     49.42225
+    ]
+   },
+   "properties": {
+    "id": "petit-bonhomme-andriou",
+    "name": "Le Petit Bonhomme Andriou",
+    "gloss": "Les Tas de Pois d'Amont",
+    "category": "stones",
+    "parish": "St Martin's",
+    "location_precision": "site",
+    "story": [
+     "One of the Tas de Pois stacks off Jerbourg looks, from the right angle, like an old man in a monk's cowl. Fishermen and pilots took off their hats when passing and made strangers in the boat do the same. Before setting sail they would throw him a biscuit, a drop of wine or cider, or an old garment. Local children had a rhyme, 'Andriou, tape tout', Andriou watches over all.",
+     "One legend says he was a treasure seeker turned to stone by the treasure's guardian. Another says he was the last Archdruid, who lived in a cave at Jerbourg. Watching a ship driven towards the rocks in a storm, he prayed in vain to his own gods, then vowed to the Christian God to convert and build a chapel to the Virgin if the ship was spared. The gale dropped, and he kept his word, though no one agrees whether the chapel was Lihou or one in St Martin's."
+    ],
+    "sources": [
+     {
+      "title": "MacCulloch, Guernsey Folk Lore (1903)",
+      "url": "https://www.gutenberg.org/ebooks/52834"
+     },
+     {
+      "title": "Jerbourg Point (Wikipedia)",
+      "url": "https://en.wikipedia.org/wiki/Jerbourg_Point"
+     }
+    ],
+    "images": [
+     {
+      "src": "images/1903/petit-bonhomme-andriou.jpg",
+      "caption": "Le Petit Bonhomme Andriou, on the Tas de Pois d'Amont",
+      "credit": "Guernsey Folk Lore, MacCulloch, ed. Carey (1903)",
+      "year": 1903
+     }
+    ],
+    "access": ""
+   }
+  }
+ ]
+}
