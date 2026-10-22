@@ -24,7 +24,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Check the data files parse
         run: |
-          python3 -c "import json; json.load(open('data/sites.geojson')); json.load(open('data/routes.json')); print('data ok')"
+          python3 -c "import json, os; json.load(open('data/sites.geojson')); json.load(open('data/routes.json')); os.path.exists('data/walks.geojson') and json.load(open('data/walks.geojson')); print('data ok')"
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

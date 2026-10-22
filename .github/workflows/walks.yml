@@ -1,0 +1,38 @@
+name: Build walking routes
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - data/routes.json
+      - scripts/build_walks.py
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Route walks along roads and paths
+        run: python3 scripts/build_walks.py
+      - name: Commit routes if changed
+        id: commit
+        run: |
+          if git diff --quiet -- data/walks.geojson && git ls-files --error-unmatch data/walks.geojson >/dev/null 2>&1; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"; echo "No change"; exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/walks.geojson
+          git commit -m "Rebuild walking routes"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+      - name: Republish the site
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref main

@@ -51,13 +51,16 @@
   }).addTo(map);
   const walkLayer = L.layerGroup();
 
+  const PATHS = {};
   let SITES = [], WALKS = [], byId = {}, markers = {}, current = null, currentWalk = null, view = 'sites';
   const active = new Set(Object.keys(CATS));
 
   Promise.all([
     fetch('data/sites.geojson').then(r => r.json()),
-    fetch('data/routes.json').then(r => r.json())
-  ]).then(([gj, routes]) => {
+    fetch('data/routes.json').then(r => r.json()),
+    fetch('data/walks.geojson').then(r => r.ok ? r.json() : null).catch(() => null)
+  ]).then(([gj, routes, paths]) => {
+    if (paths) paths.features.forEach(f => { PATHS[f.properties.id] = f; });
     SITES = gj.features.map(f => ({ ...f.properties, lon: f.geometry.coordinates[0], lat: f.geometry.coordinates[1] }));
     SITES.forEach(s => { byId[s.id] = s; });
     WALKS = routes.map(w => ({ ...w, stops: w.stops.filter(id => byId[id]) }));
@@ -114,6 +117,11 @@
       li.firstChild.onclick = () => select(s.id, true);
       list.appendChild(li);
     });
+  }
+
+  function duration(s) {
+    const m = Math.round(s / 300) * 5, h = Math.floor(m / 60), r = m % 60;
+    return 'About ' + (h ? h + ' hr' + (r ? ' ' + r + ' min' : '') : r + ' min');
   }
 
   function walkLength(w) {
@@ -221,7 +229,9 @@
     map.removeLayer(cluster);
     walkLayer.clearLayers();
     const pts = w.stops.map(sid => [byId[sid].lat, byId[sid].lon]);
-    L.polyline(pts, { color: '#ece6d8', weight: 2, opacity: .7, dashArray: '4 7' }).addTo(walkLayer);
+    const path = PATHS[w.id];
+    if (path) L.geoJSON(path, { style: { color: '#ece6d8', weight: 3, opacity: .8 } }).addTo(walkLayer);
+    else L.polyline(pts, { color: '#ece6d8', weight: 2, opacity: .7, dashArray: '4 7' }).addTo(walkLayer);
     w.stops.forEach((sid, i) => {
       const s = byId[sid];
       const m = L.marker([s.lat, s.lon], { icon: pinIcon(s.category, i + 1), title: s.name, zIndexOffset: 1000 });
@@ -244,10 +254,10 @@
       <div class="cat" style="--c:var(--c-witches)">WALK · ${w.stops.length} STOPS</div>
       <h2>${esc(w.name)}</h2>
       <p class="gloss">${esc(w.summary)}</p>
-      <div class="meta"><span><b>BETWEEN STOPS</b>About ${walkLength(w).toFixed(1)} km in straight lines</span></div>
+      <div class="meta">${PATHS[w.id] ? `<span><b>DISTANCE</b>About ${(PATHS[w.id].properties.distance_m / 1000).toFixed(1)} km</span><span><b>WALKING TIME</b>${duration(PATHS[w.id].properties.duration_s)}</span>` : `<span><b>BETWEEN STOPS</b>About ${walkLength(w).toFixed(1)} km in straight lines</span>`}</div>
       <div class="stops"><b>STOPS IN ORDER</b><ol>${w.stops.map((sid, i) => { const s = byId[sid]; return `<li><button type="button" data-id="${sid}" style="--c:var(--c-${s.category})"><span class="k">${i + 1}</span><span class="nm">${esc(s.name)}</span><span class="ps">${esc(s.parish.toUpperCase())}</span></button></li>`; }).join('')}</ol></div>
       ${w.notes.length ? `<div class="notes"><b>BEFORE YOU GO</b><ul>${w.notes.map(n => `<li>${esc(n)}</li>`).join('')}</ul></div>` : ''}
-      <p class="fine">The dashed line joins the stops in order. It does not follow roads or paths, and the walking distance will be longer. Many sites are on private land; keep to public roads and paths.</p>`;
+      <p class="fine">${PATHS[w.id] ? 'The route follows roads and paths mapped in OpenStreetMap, with no allowance for stops. Check conditions on the ground.' : 'The dashed line joins the stops in order. It does not follow roads or paths, and the walking distance will be longer.'} Many sites are on private land; keep to public roads and paths.</p>`;
     card.hidden = false; $('list').hidden = true; $('walks').hidden = true;
     $('back').onclick = () => { clearWalk(); card.hidden = true; setView('walks'); setHash(''); map.flyToBounds(GUERNSEY, { duration: .6 }); };
     card.querySelectorAll('.stops button').forEach(b => { b.onclick = () => select(b.dataset.id, true); });

@@ -7,7 +7,8 @@ Plain static site: `index.html`, `assets/`, `data/`, `images/`. No build step. L
 ## Editing content
 
 - `data/sites.geojson`: one feature per site. Properties: `id` (also the page anchor, e.g. `/#le-trepied`), `name`, `gloss`, `category` (`fairies`, `witches`, `beasts`, `ghosts`, `stones`), `parish`, `location_precision` (`site` or `area`), `story` (array of paragraphs), `sources` (title and url), `images` (src, caption, credit, year) and `access` (a visiting note; shown on the site card when filled in).
-- `data/routes.json`: walks. Each has `id` (anchor, e.g. `/#walk-catioroc`), `name`, `summary`, `stops` (site ids in order) and `notes`.
+- `data/routes.json`: walks. Each has `id` (anchor, e.g. `/#walk-catioroc`), `name`, `summary`, `stops` (site ids in order, or `{"lat": .., "lon": ..}` via points to steer the route along a preferred lane) and `notes`.
+- `data/walks.geojson`: generated. The **Build walking routes** Action (`scripts/build_walks.py`) routes each walk along OpenStreetMap roads and paths using the FOSSGIS OSRM walking server, commits the file and republishes. It runs when `routes.json` changes, or by hand from the Actions tab. Its log lists any stop more than 150 m from a routable path.
 - `images/1903/`: plates from MacCulloch, *Guernsey Folk Lore*, ed. Carey (1903), out of copyright.
 
 Pushing to `main` publishes the site through GitHub Pages (`.github/workflows/pages.yml`). The workflow fails if either data file is not valid JSON.
@@ -20,7 +21,7 @@ Pushing to `main` publishes the site through GitHub Pages (`.github/workflows/pa
 
 ## Before launch
 
-- Walk each route and check the stop order and access; the distances shown are straight lines between stops.
+- Walk each route and check the line, stop order and access.
 - Fill in `access` for sites on private land or with restricted access.
 - Check the basemap provider's terms for production traffic.
 
