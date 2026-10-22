@@ -45,6 +45,22 @@
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
   }).addTo(map);
 
+  // Embedded on another page: add a link that opens the full map in a new tab, keeping the current site or walk
+  const EMBED = document.documentElement.classList.contains('embed');
+  const FULL_URL = 'https://folklore.thequarry.media/';
+  let fullLink = null;
+  if (EMBED) {
+    const ctl = L.control({ position: 'topright' });
+    ctl.onAdd = () => {
+      fullLink = L.DomUtil.create('a', 'fullmap');
+      fullLink.href = FULL_URL + location.hash; fullLink.target = '_blank'; fullLink.rel = 'noopener';
+      fullLink.textContent = 'Open full map \u2197';
+      L.DomEvent.disableClickPropagation(fullLink);
+      return fullLink;
+    };
+    ctl.addTo(map);
+  }
+
   const cluster = L.markerClusterGroup({
     maxClusterRadius: 22, disableClusteringAtZoom: 15, showCoverageOnHover: false, spiderfyOnMaxZoom: true,
     iconCreateFunction: c => L.divIcon({ className: '', html: `<div class="cluster">${c.getChildCount()}</div>`, iconSize: [34, 34] })
@@ -154,6 +170,7 @@
   $('tab-walks').onclick = () => { reset(); setView('walks'); };
 
   function setHash(h) {
+    if (fullLink) fullLink.href = FULL_URL + (h ? '#' + h : '');
     try { history.replaceState(null, '', h ? '#' + h : location.pathname + location.search); } catch (e) { /* ignore */ }
   }
 
@@ -210,7 +227,7 @@
   }
 
   function scrollPanel() {
-    if (matchMedia('(max-width:820px)').matches) $('panel').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (matchMedia('(max-width:820px)').matches && !EMBED) $('panel').scrollIntoView({ behavior: 'smooth', block: 'start' });
     else $('panel').scrollTop = 0;
   }
 

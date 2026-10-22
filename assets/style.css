@@ -125,3 +125,19 @@ h1 em{font-style:italic;color:var(--ink-soft)}
   .panel{border-left:0;border-top:1px solid var(--rule);overflow:visible}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+
+/* Embedded in an iframe (e.g. on thequarry.media): fixed height, panel scrolls inside */
+.fullmap{display:none}
+html.embed .fullmap{display:inline-block;background:var(--panel);color:var(--ink);border:1px solid var(--rule);border-radius:3px;padding:6px 10px;font-family:var(--body);font-size:13px;text-decoration:none}
+html.embed .fullmap:hover{background:var(--panel-2)}
+html.embed,html.embed body{height:100%}
+html.embed .app{height:100%}
+@media (max-width:820px){
+  html.embed,html.embed body{height:100%}
+  html.embed .app{display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:55% 45%;height:100%}
+  html.embed .map{height:auto;min-height:0}
+  html.embed .panel{overflow-y:auto}
+}
+/* The host article carries the title and introduction */
+html.embed .head h1,html.embed .head .intro{display:none}
+html.embed .head{padding-block:14px 12px}

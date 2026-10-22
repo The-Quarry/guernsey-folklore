@@ -13,6 +13,17 @@ Plain static site: `index.html`, `assets/`, `data/`, `images/`. No build step. L
 
 Pushing to `main` publishes the site through GitHub Pages (`.github/workflows/pages.yml`). The workflow fails if either data file is not valid JSON.
 
+## Embedding
+
+When the map runs inside an iframe (or with `?embed` in the URL) it switches to embed mode: the title and intro are hidden because the host page carries them, the panel scrolls inside the frame, and an "Open full map" link opens the standalone site in a new tab at the same site or walk. Link straight to a site or walk with the anchor, e.g. `https://folklore.thequarry.media/#walk-catioroc`.
+
+```html
+<iframe src="https://folklore.thequarry.media/" title="Guernsey Folklore Map" loading="lazy"
+  style="display:block;width:100%;height:min(85vh,760px);border:0;"></iframe>
+```
+
+`images/og.jpg` is the link-preview image used when the site is shared.
+
 ## Setup (once)
 
 1. Repo Settings > Pages > Source: **GitHub Actions**.
