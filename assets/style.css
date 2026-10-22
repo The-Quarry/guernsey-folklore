@@ -141,3 +141,6 @@ html.embed .app{height:100%}
 /* The host article carries the title and introduction */
 html.embed .head h1,html.embed .head .intro{display:none}
 html.embed .head{padding-block:14px 12px}
+
+.help{margin:6px 0 0;padding-top:12px;border-top:1px solid var(--rule);font-size:14px;color:var(--ink-soft);max-width:62ch}
+.help a{color:var(--c-witches);text-underline-offset:3px}
