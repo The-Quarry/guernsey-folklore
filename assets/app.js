@@ -270,5 +270,9 @@
     else if (WALKS.some(w => w.id === h)) selectWalk(h);
   }
   window.addEventListener('hashchange', openFromHash);
+  $('copy-email').onclick = e => {
+    const btn = e.currentTarget, done = () => { btn.textContent = 'Copied'; setTimeout(() => { btn.textContent = 'Copy address'; }, 2000); };
+    if (navigator.clipboard) navigator.clipboard.writeText('editor@thequarry.media').then(done, () => {});
+  };
   document.addEventListener('keydown', e => { if (e.key === 'Escape' && (current || currentWalk)) { if (current) select(null); else $('back') && $('back').click(); } });
 })();
