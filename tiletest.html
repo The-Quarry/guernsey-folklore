@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex"><title>Tile test</title>
+<style>body{font-family:system-ui,sans-serif;background:#16171b;color:#ece6d8;margin:0;padding:20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:18px}
+figure{margin:0}img{width:256px;height:256px;display:block;background:#333;border:1px solid #555}
+figcaption{font-size:13px;margin-top:6px;word-break:break-all}.ok{color:#8fd3c4}.bad{color:#de6a55}</style></head>
+<body><h1>Tile test</h1><p>Page address: <b id="loc"></b></p><div class="grid" id="g"></div>
+<script>
+document.getElementById('loc').textContent=location.href;
+const K='cb1_4rrh_1_787f5809ade6f105fa27d8a3',T='12/2018/1398';
+const tests=[
+ ['1. CARTO Dark Matter, a. subdomain, key','https://a.basemaps.cartocdn.com/dark_all/'+T+'.png?key='+K],
+ ['2. CARTO Dark Matter, no subdomain, key','https://basemaps.cartocdn.com/dark_all/'+T+'.png?key='+K],
+ ['3. CARTO Voyager, exact format CARTO gave','https://basemaps.cartocdn.com/rastertiles/voyager/'+T+'.png?key='+K],
+ ['4. CARTO Dark Matter, no key (expect watermark)','https://a.basemaps.cartocdn.com/dark_all/'+T+'.png'],
+ ['5. OpenStreetMap (control)','https://tile.openstreetmap.org/'+T+'.png']];
+const g=document.getElementById('g');
+tests.forEach(([label,url])=>{const f=document.createElement('figure');const i=new Image();const c=document.createElement('figcaption');
+ c.textContent=label+': loading';i.onload=()=>{c.textContent=label+': image loaded';c.className='ok'};i.onerror=()=>{c.textContent=label+': FAILED to load';c.className='bad'};
+ i.src=url;f.append(i,c);g.append(f)});
+</script></body></html>
