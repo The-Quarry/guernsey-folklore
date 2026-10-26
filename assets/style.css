@@ -114,6 +114,8 @@ h1 em{font-style:italic;color:var(--ink-soft)}
 .share .addr a{color:var(--c-witches);font-size:17px;text-underline-offset:3px;user-select:all}
 .share button{background:none;border:1px solid var(--rule);color:var(--ink);border-radius:999px;padding:3px 12px;font-family:var(--body);font-size:13px;cursor:pointer}
 .share button:hover{background:var(--panel-2)}
+.share .news{margin-top:6px;padding-top:12px;border-top:1px solid var(--rule)}
+.share .news a{color:var(--ink);font-weight:500;text-underline-offset:3px}
 .note{padding-block:16px;border-top:1px solid var(--rule);font-size:13px;color:var(--ink-faint)}
 .note p{margin:0 0 6px;max-width:62ch}
 .note .byline{margin-top:10px}
