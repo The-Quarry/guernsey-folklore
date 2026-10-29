@@ -194,7 +194,8 @@
       ${plates ? `<div class="plates">${plates}</div>` : ''}
       <div class="story">${s.story.map(p => `<p>${esc(p)}</p>`).join('')}</div>
       <div class="src"><b>SOURCES</b><ul>${s.sources.map(x => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></li>`).join('')}</ul></div>
-      <p class="help">Know more about ${esc(s.name)}, have a photo of it, or think the pin is in the wrong place? <a href="${mailto('Folklore map: ' + s.name, SITE_BODY)}">Tell us</a></p>`;
+      <p class="help">Know more about ${esc(s.name)}, have a photo of it, or think the pin is in the wrong place? <a href="${mailto('Folklore map: ' + s.name, SITE_BODY)}">Tell us</a></p>
+      <p class="help"><a href="https://folklore.thequarry.media/stories/${esc(s.id)}/" target="_blank" rel="noopener">Open this story as its own page</a>, to share or bookmark.</p>`;
   }
 
   function select(id, fly) {

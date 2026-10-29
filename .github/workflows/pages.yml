@@ -25,6 +25,8 @@ jobs:
       - name: Check the data files parse
         run: |
           python3 -c "import json, os; json.load(open('data/sites.geojson')); json.load(open('data/routes.json')); os.path.exists('data/walks.geojson') and json.load(open('data/walks.geojson')); print('data ok')"
+      - name: Build story pages, sitemap and robots.txt
+        run: python3 scripts/build_pages.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
