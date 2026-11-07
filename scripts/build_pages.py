@@ -71,7 +71,7 @@ def page(title, desc, canon, image, body):
 <div class="top"><a href="/">Guernsey Folklore Map</a><a href="https://thequarry.media">The Quarry</a></div>
 {body}
 <div class="foot">
-<p>Part of the <a href="/">Guernsey Folklore Map</a>, a shared project by <a href="https://thequarry.media">The Quarry</a> to keep the island's old stories alive. Many sites are on private land: please keep to public roads and paths.</p>
+<p>Part of the <a href="/">Guernsey Folklore Map</a>, a shared project by <a href="https://thequarry.media">The Quarry</a> to keep the island's old stories alive. Many sites are on private land: please keep to public roads and paths. Some are on cliffs or reachable only at low tide: check the tide times and keep to safe paths.</p>
 <p><a href="https://thequarry.media/#/portal/signup">Get The Quarry's weekly newsletter</a> · <a href="/stories/">All the stories</a></p>
 <p>We count visits with Cloudflare Web Analytics, which sets no cookies and collects no personal data.</p>
 </div>
