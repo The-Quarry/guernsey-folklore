@@ -74,6 +74,7 @@ def page(title, desc, canon, image, body):
 <p>Part of the <a href="/">Guernsey Folklore Map</a>, a shared project by <a href="https://thequarry.media">The Quarry</a> to keep the island's old stories alive. Many sites are on private land: please keep to public roads and paths. Some are on cliffs or reachable only at low tide: check the tide times and keep to safe paths.</p>
 <p><a href="https://thequarry.media/#/portal/signup">Get The Quarry's weekly newsletter</a> · <a href="/stories/">All the stories</a></p>
 <p>We count visits with Cloudflare Web Analytics, which sets no cookies and collects no personal data.</p>
+<p>Code MIT. Stories and site data <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, The Quarry. Walking routes from OpenStreetMap data, © OpenStreetMap contributors, ODbL. Reader contributions remain with their authors. <a href="https://github.com/The-Quarry/guernsey-folklore">Source and data</a>.</p>
 </div>
 </main>
 {BEACON}

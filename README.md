@@ -39,3 +39,17 @@ When the map runs inside an iframe (or with `?embed` in the URL) it switches to 
 ## Stage 2 (planned)
 
 Reader contributions (stories and photos) through a Cloud Run endpoint with Cloudflare Turnstile, stored in Firestore as pending, approved in Quarry Studio, and shown as a separate "readers' tales" layer.
+
+## Licences
+
+The map is made of different kinds of material, licensed separately.
+
+| Part | Files | Licence |
+| --- | --- | --- |
+| Code | `index.html`, `assets/`, `scripts/`, `.github/` | MIT, see [LICENSE](LICENSE) |
+| The Quarry's text and data: retellings, site names, coordinates, glosses | `data/sites.geojson`, `data/routes.json` and the story pages built from them | [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0). Credit: "Guernsey Folklore Map, The Quarry" with a link to https://folklore.thequarry.media |
+| Walking route lines | `data/walks.geojson` | Calculated from OpenStreetMap data. © OpenStreetMap contributors, available under the [Open Database Licence](https://opendatacommons.org/licenses/odbl/) (ODbL) |
+| 1903 photographs | `images/1903/` | Plates from Sir Edgar MacCulloch, *Guernsey Folk Lore* (1903). Credited as published; no new licence is claimed |
+| Reader contributions | Entries credited to a contributor | Published with the contributor's permission for The Quarry. Not covered by CC BY |
+
+The sources each story draws on are credited on its entry. Basemap tiles are © CARTO and © OpenStreetMap contributors.
